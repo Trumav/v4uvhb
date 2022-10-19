@@ -18,5 +18,19 @@ wget -q -O /usr/bin/menu-vmess "https:https://raw.githubusercontent.com/godtrex9
 wget -q -O /usr/bin/menu-webmin "https:https://raw.githubusercontent.com/godtrex99/v4/main/update/menu-webmin.sh" && chmod +x /usr/bin/menu-webmin
 wget -q -O /usr/bin/restart "https:https://raw.githubusercontent.com/godtrex99/v4/main/update/restart.sh" && chmod +x /usr/bin/restart
 wget -q -O /usr/bin/running "https:https://raw.githubusercontent.com/godtrex99/v4/main/update/running.sh" && chmod +x /usr/bin/running
-sleep 2
+chmod +x about
+chmod +x auto-reboot
+chmod +x clearcache
+chmod +x bw
+chmod +x menu
+chmod +x menu-domain
+chmod +x menu-set
+chmod +x menu-ssh
+chmod +x menu-trgo
+chmod +x menu-trojan
+chmod +x menu-vless
+chmod +x menu-vmess
+chmod +x menu-webmin
+chmod +x restart
+chmod +x running
 echo -e "[INFO] Done"
